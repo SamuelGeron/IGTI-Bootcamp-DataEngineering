@@ -33,6 +33,6 @@ if __name__ == "__main__":
 
     stream = Stream(auth, l)
     stream.filter(
-        languages=["pt-BR"],
-        track=["Disney Plus","Netflix","HBOGO","Globoplay"]
+        languages=["pt"],
+        track=["Disney Plus" , "Netflix", "HBOGO", "Globoplay"]
     )
